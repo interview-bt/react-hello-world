@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+/**
+ * Imagine you wanted to build a system that helps you with task tracking.
+ * Each has a title, status, and a subtasks section.
+ *
+ * There is a backend that can fetch task details in JSON format.
+ * The available mock APIs are located in "api.ts" file, e.g. getIssue(), getSubtasks()
+ *
+ * Our exercise is to build a UI that looks like the mockup in jira-issue-mock.png
+ *
+ * Arrows for displaying expand panel: ▼ ▶
+ */
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Placeholder</p>
     </div>
   );
 }
-
-export default App;
